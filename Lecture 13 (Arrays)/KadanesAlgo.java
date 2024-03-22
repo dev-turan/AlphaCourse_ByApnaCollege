@@ -1,7 +1,6 @@
 import java.util.*;
 
 public class KadanesAlgo {
-	
 	public static void kadaneAlgo(int arr[]) {
 		int n = arr.length;
 		int cs = 0;
@@ -21,11 +20,14 @@ public class KadanesAlgo {
 		System.out.print(ms);
 	}
 
+	// main function
 	public static void main(String[] args) {
+		// input from user
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int arr[] = new int [n];
-		
+
+		// taking input of array elements
 		for(int i=0; i<n; i++) {
 			arr[i] = sc.nextInt();
 		}
