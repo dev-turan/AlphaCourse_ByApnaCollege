@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Binomial_Coefficient {
-	
+	// calculating factorial
 	public static int factorial(int n) {
 		int f = 1;
 		for(int i=1;i<=n;i++) {
@@ -19,7 +19,8 @@ public class Binomial_Coefficient {
 		System.out.print(a);
 		return a;
 	}
-
+	
+        // main function
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("value of n : ");
